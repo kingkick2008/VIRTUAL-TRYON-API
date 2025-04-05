@@ -3,16 +3,14 @@
 This project implements a virtual try-on API using the VITON-HD framework. It allows users to upload a person image and a cloth image, and the API generates a new image with the person virtually trying on the cloth. The API is built using FastAPI and leverages the VITON-HD model for high-resolution virtual try-on.
 
 ## Project Structure
+<pre>
 VIRTUAL-TRYON-API/
 │
-
 ├── app/
-
 │   ├── init.py
 │   ├── config.py          # Configuration settings
 │   ├── main.py            # FastAPI application
 │   └── viton_service.py   # Core VITON-HD service logic
-
 ├── VITON-HD/
 │   ├── checkpoints/
 │   │   ├── alias_final.pth  # Checkpoint for ALIASGenerator
@@ -28,7 +26,7 @@ VIRTUAL-TRYON-API/
 ├── temp/                    # Directory for temporary files
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
-
+</pre>
 
 ## Features
 
@@ -165,4 +163,3 @@ git push origin feature/your-feature-name
 This project is licensed under Creative Commons BY-NC 4.0. See the LICENSE file in the VITON-HD directory for details:
 https://github.com/shadow2496/VITON-HD
 
-# Test commit
