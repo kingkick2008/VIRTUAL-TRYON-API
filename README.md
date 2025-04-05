@@ -5,11 +5,14 @@ This project implements a virtual try-on API using the VITON-HD framework. It al
 ## Project Structure
 VIRTUAL-TRYON-API/
 │
+
 ├── app/
+
 │   ├── init.py
 │   ├── config.py          # Configuration settings
 │   ├── main.py            # FastAPI application
 │   └── viton_service.py   # Core VITON-HD service logic
+
 ├── VITON-HD/
 │   ├── checkpoints/
 │   │   ├── alias_final.pth  # Checkpoint for ALIASGenerator
@@ -162,3 +165,4 @@ git push origin feature/your-feature-name
 This project is licensed under Creative Commons BY-NC 4.0. See the LICENSE file in the VITON-HD directory for details:
 https://github.com/shadow2496/VITON-HD
 
+# Test commit
