@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 The requirements.txt file includes:
 
-
+<pre>
 fastapi==0.95.0
 uvicorn==0.21.1
 python-multipart==0.0.9
@@ -79,6 +79,7 @@ opencv-python==4.7.0.72
 pillow==9.5.0
 numpy==1.24.3
 torchgeometry==0.1.2
+</pre>
 
 
 ### 4 Usage
