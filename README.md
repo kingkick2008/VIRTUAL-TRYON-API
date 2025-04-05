@@ -48,6 +48,9 @@ VIRTUAL-TRYON-API/
 git clone https://github.com/kingkick2008/VIRTUAL-TRYON-API.git
 cd VIRTUAL-TRYON-API
 
+git clone https://github.com/shadow2496/VITON-HD.git
+cd ./VITON-HD/
+
 ```
 
 
