@@ -1,5 +1,6 @@
 # Python-specific ignores
 __pycache__/
+app/__pycache__/
 *.pyc
 *.pyo
 *.pyd

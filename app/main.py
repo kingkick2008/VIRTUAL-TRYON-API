@@ -12,6 +12,7 @@ from app.config import Settings
 app = FastAPI(title="Virtual Try-On API")
 
 # CORS middleware configuration
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
